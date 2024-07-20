@@ -1,0 +1,12 @@
+# Finding minimun and maximum values
+
+# Load library
+import numpy as np
+# Create matrix
+matrix = np.array([[1, 2, 3],
+                   [4, 5, 6],
+                   [7, 8, 9]])
+# Maximum val
+print(np.max(matrix))
+# Minimum value
+print(np.min(matrix))
